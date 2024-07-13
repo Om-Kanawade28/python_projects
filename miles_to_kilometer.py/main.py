@@ -22,7 +22,7 @@ entry.pack(side="left", padx=10)
 button.pack(side="left")
 input_frame.pack(pady=10)
 
-# Output
+# Output1
 output_string = StringVar()
 output_label = Label(master=window, text='Output', font='Arial 12 bold', textvariable=output_string)
 output_label.pack()
